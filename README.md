@@ -75,55 +75,47 @@ The lab demonstrates several common SOC workflows including:
 # SOC Workflow
 
 ```
-User Activity
+  User Activity
 
         │
-
         ▼
 
 Endpoint Logs Generated
 
         │
-
         ▼
 
-Wazuh Agent
+  Wazuh Agent
 
         │
-
         ▼
 
-Wazuh Manager
+  Wazuh Manager
 
         │
-
         ▼
 
-Indexer
+     Indexer
 
         │
-
         ▼
 
-Dashboard
+    Dashboard
 
         │
-
         ▼
 
 Alert Investigation
 
         │
-
         ▼
 
-Threat Hunting
+ Threat Hunting
 
         │
-
         ▼
 
-Incident Report
+ Incident Report
 ```
 
 ---
