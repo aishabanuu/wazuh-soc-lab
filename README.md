@@ -4,7 +4,6 @@ A complete **Security Operations Center (SOC)** laboratory built using **Wazuh S
 
 This project demonstrates the responsibilities of a **Tier 1 SOC Analyst**, including collecting endpoint logs, monitoring security events, investigating alerts, correlating incidents, and documenting findings.
 
----
 
 # Project Overview
 
@@ -23,7 +22,6 @@ The lab demonstrates several common SOC workflows including:
 - Incident Investigation
 - Security Reporting
 
----
 
 # Objectives
 
@@ -36,7 +34,6 @@ The lab demonstrates several common SOC workflows including:
 - Analyze Linux security events
 - Document findings through incident reports
 
----
 
 # Lab Environment
 
@@ -50,7 +47,6 @@ The lab demonstrates several common SOC workflows including:
 | Endpoint | Kali Linux |
 | Endpoint Agent | Wazuh Agent |
 
----
 
 # Architecture
 
@@ -70,7 +66,6 @@ The lab demonstrates several common SOC workflows including:
 +----------------------+       +----------------------+
 ```
 
----
 
 # SOC Workflow
 
@@ -94,7 +89,6 @@ Alert Investigation
  Incident Report
 ```
 
----
 
 # Technologies Used
 
@@ -111,7 +105,6 @@ Alert Investigation
 - Syslog
 - MITRE ATT&CK Framework
 
----
 
 # Security Scenarios Performed
 
@@ -127,7 +120,6 @@ Alert Investigation
 | Threat Hunting | Investigated security events using Wazuh queries | ✅ |
 | Incident Investigation | Correlated collected events | ✅ |
 
----
 
 # Security Events Observed
 
@@ -139,8 +131,6 @@ Alert Investigation
 - AppArmor DENIED Events
 - Security Event Correlation
 - Linux Audit Events
-
----
 
 # Threat Hunting
 
@@ -155,7 +145,6 @@ Threat hunting activities performed during this lab included:
 - Rule severity analysis
 - Alert correlation
 
----
 
 # Project Structure
 
@@ -181,7 +170,6 @@ wazuh-soc-lab/
 └── docs/
 ```
 
----
 
 # MITRE ATT&CK Mapping
 
@@ -193,7 +181,6 @@ wazuh-soc-lab/
 | T1021 | Remote Services |
 | T1110 | Brute Force |
 
----
 
 # Skills Demonstrated
 
@@ -210,7 +197,6 @@ wazuh-soc-lab/
 - Wazuh Administration
 - MITRE ATT&CK Mapping
 
----
 
 # Incident Investigation Summary
 
@@ -227,7 +213,6 @@ The investigation included:
 
 All alerts were analyzed through the Wazuh Dashboard to understand the sequence of events and validate the effectiveness of endpoint monitoring.
 
----
 
 # Key Learning Outcomes
 
@@ -239,7 +224,6 @@ All alerts were analyzed through the Wazuh Dashboard to understand the sequence 
 - Documented security findings in a structured manner.
 - Gained practical experience with SOC workflows and security monitoring.
 
----
 
 # Future Improvements
 
@@ -253,12 +237,8 @@ All alerts were analyzed through the Wazuh Dashboard to understand the sequence 
 - Sysmon Integration
 - Sigma Rule Detection
 
----
 
 # Author
 
 **Aisha**
-
 Aspiring SOC Analyst | Security Analyst | Cybersecurity Enthusiast
-
-GitHub: https://github.com/aishabanuu
